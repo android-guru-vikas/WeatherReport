@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/three_dp"
+    android:background="@drawable/rounded_corner_drawable_bg_white"
+    android:orientation="vertical">
+
+    <com.dev.weatherreport.utils.WeatherTextView
+        android:id="@+id/humidityTv"
+        style="@style/homeTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <com.dev.weatherreport.utils.WeatherTextView
+        android:id="@+id/pressureTv"
+        style="@style/homeTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <com.dev.weatherreport.utils.WeatherTextView
+        android:id="@+id/descTv"
+        style="@style/homeTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>

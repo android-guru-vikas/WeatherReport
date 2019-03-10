@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WeatherReport</string>
+    <string name="title_delhi">Delhi</string>
+    <string name="title_blr">Banglore</string>
+    <string name="title_chennai">Chennai</string>
+
+    <string name="title_humidity">Humidity : &#160;</string>
+    <string name="title_pressure">Pressure : &#160;</string>
+    <string name="title_desc">Description : &#160;</string>
+
+    <string name="UNKNOWN_HOST">Unable to connect to the server. Please check your internet connection and try again.</string>
+    <string name="SOCKET_TIME_OUT">Connection time out. Please try again.</string>
+    <string name="JSON_SYNTAX">Parsing syntax error.</string>
+    <string name="UNABLE_TO_CONNECT">Unable to connect to the server. Please try again or later.</string>
+    <string name="UNKNOWN_ERROR">Something went wrong.</string>
+
+    <!-- -API Error Messages -->
+    <string name="bad_Request">Bad Request</string>
+    <string name="unauthorized_user">Unauthorized user.</string>
+    <string name="page_not_found">Page not found.</string>
+    <string name="something_went_wrong_on_server">Something went wrong on server.</string>
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="data_not_found">Data not found.</string>
+
+</resources>
